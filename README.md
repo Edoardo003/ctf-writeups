@@ -6,7 +6,7 @@ Cybersecurity CTF write-ups, notes and methodologies.
 
 ## TryHackMe
 Rooms completed:
-- Coming soon
+- [Hammer - From password reset bypass to command execution](TryHackMe/Hammer/hammer.md)
 
 ## HackTheBox
 Machines completed:
