@@ -28,14 +28,7 @@ RustScan identified SSH and an Apache/PHP web application. Content discovery exp
 
 *Gobuster identified the public PHP endpoints and the `flags/` directory.*
 
-![Injectics public login page](./evidence/Immagine%202026-07-13%20222818.png)
-
 The main clue was in the public page source:
-
-```html
-<!-- Website developed by John Tim - dev@injectics.thm -->
-<!-- Mails are stored in mail.log file -->
-```
 
 ![Source comments disclosing the developer email and mail log](./evidence/Immagine%202026-07-13%20222848.png)
 
@@ -79,8 +72,6 @@ The administrator profile update endpoint accepted `email`, `fname`, and `lname`
 ```json
 "twig/twig": "2.14.0"
 ```
-
-![Composer manifest confirming Twig 2.14.0](./evidence/Immagine%202026-07-13%20222311.png)
 
 Saving the following expression in a rendered profile field produced `Welcome 49`:
 
