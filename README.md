@@ -7,7 +7,7 @@ Cybersecurity CTF write-ups, notes and methodologies.
 ## TryHackMe
 Rooms completed:
 - [Hammer - From password reset bypass to command execution](TryHackMe/Hammer/hammer.md)
-- [Injectics — SQLi to Twig SSTI](TryHackMe/Injectics/Injectics.md)
+- [Injectics — SQLi to Twig SSTI](TryHackMe/Injectics/injectics.md)
 
 ## HackTheBox
 Machines completed:
