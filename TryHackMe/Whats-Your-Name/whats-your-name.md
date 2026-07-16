@@ -31,27 +31,6 @@ The registration request sent JSON to `/api/register.php`, including `username`,
 
 </details>
 
-<details>
-<summary>Evidence: public registration flow</summary>
-
-![WorldWAP public application](evidence/01-public-application.png)
-
-</details>
-
-<details>
-<summary>Evidence: registration form</summary>
-
-![WorldWAP registration form](evidence/02-registration-form.png)
-
-</details>
-
-<details>
-<summary>Evidence: unverified account response</summary>
-
-![Login blocked until verification](evidence/03-unverified-login.png)
-
-</details>
-
 ### 2. Turning pending registration into a moderator session
 
 The registration JavaScript passed `name` to the API without client-side validation. I used harmless HTML to establish that markup was accepted, then submitted a controlled callback payload. When the request was reviewed, my listener received a target request, proving execution in the moderator's browser.
