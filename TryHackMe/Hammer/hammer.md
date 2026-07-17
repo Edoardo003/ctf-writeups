@@ -4,7 +4,7 @@
 
 | Platform | Difficulty | Focus | Outcome |
 | --- | --- | --- | --- |
-| TryHackMe | Intermediate | Authentication and JWT security | Account takeover and command execution |
+| TryHackMe |  Medium  | Authentication and JWT security | Account takeover and command execution |
 
 ## At a glance
 
